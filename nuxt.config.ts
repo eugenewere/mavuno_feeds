@@ -6,6 +6,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css', '~/assets/css/tailwind.css'],
   modules: ['@nuxt/icon'],
+  app: {
+    header: {
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    },
+  },
   icon: {
     serverBundle: {
       collections: ['ph',] // <!--- this
