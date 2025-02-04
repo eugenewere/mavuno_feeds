@@ -169,7 +169,7 @@ const contact = {
                     </div>
                 </div>
 
-                <div class="flex flex-col xl:flex-row items-center justify-between mb-20 md:mb-40">
+                <div class="flex flex-col-reverse xl:flex-row items-center justify-between mb-20 md:mb-40">
                     <div class="mx-auto xl:mx-0 text-center xl:text-left mb-20 xl:mb-0">
                       
 	                     <h1 class="font-bold text-gray-700 text-3xl md:text-4xl mb-10">High Phosphorous Goat <br> Salt Supplement.</h1>
@@ -185,15 +185,15 @@ const contact = {
 												</ul>
                     </div>
 
-                    <div class="mx-auto xl:mx-0">
-	                     <img src="/image/goat.png" alt="Image" class="w-[50%] ml-auto">
+                    <div class="mx-auto xl:mx-0 pb-20 lg:pb-0">
+	                     <img src="/image/goat.png" alt="Image" class="w-[50%] lg:ml-auto mx-auto">
                       
                     </div>
                 </div>
 
                 <div class="flex flex-col xl:flex-row items-center justify-between">
                     <div class="mx-auto xl:mx-0 mb-20 xl:mb-0">
-                        <img src="/image/cowfeeds.png" alt="Image" class="w-[70%] mr-auto" style="transform: scaleX(-1)">
+                        <img src="/image/cowfeeds.png" alt="Image" class="w-[70%] mx-auto lg:mr-auto" style="transform: scaleX(-1)">
                     </div>
 
                     <div class="mx-auto xl:mx-0 text-center xl:text-left">
@@ -223,7 +223,7 @@ const contact = {
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 xl:gap-10">
                     <div class="space-y-2 xl:space-y-4">
-                        <img src="/image/yoga-1.svg" alt="Image" class="hover:opacity-75 transition ease-in-out duration-300">
+                        <img src="/image/feeds.png" alt="Image" class="hover:opacity-75 transition ease-in-out duration-300">
 
                         <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>
 
@@ -231,7 +231,7 @@ const contact = {
                     </div>
 
                     <div class="space-y-2 xl:space-y-4">
-                        <img src="/image/yoga-2.svg" alt="Image" class="hover:opacity-75 transition ease-in-out duration-300">
+                        <img src="/image/feeds.png" alt="Image" class="hover:opacity-75 transition ease-in-out duration-300">
 
                         <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>
 
@@ -239,7 +239,7 @@ const contact = {
                     </div>
 
                     <div class="space-y-2 xl:space-y-4">
-                        <img src="/image/yoga-3.svg" alt="Image" class="hover:opacity-75 transition ease-in-out duration-300">
+                        <img src="/image/feeds.png" alt="Image" class="hover:opacity-75 transition ease-in-out duration-300">
 
                         <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>
 
@@ -247,7 +247,7 @@ const contact = {
                     </div>
 
                     <div class="space-y-2 xl:space-y-4">
-                        <img src="/image/yoga-3.svg" alt="Image" class="hover:opacity-75 transition ease-in-out duration-300">
+                        <img src="/image/feeds.png" alt="Image" class="hover:opacity-75 transition ease-in-out duration-300">
 
                         <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>
 
@@ -255,7 +255,7 @@ const contact = {
                     </div>
 
                     <div class="space-y-2 xl:space-y-4">
-                        <img src="/image/yoga-1.svg" alt="Image" class="hover:opacity-75 transition ease-in-out duration-300">
+                        <img src="/image/feeds.png" alt="Image" class="hover:opacity-75 transition ease-in-out duration-300">
 
                         <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>
 
@@ -263,7 +263,7 @@ const contact = {
                     </div>
 
                     <div class="space-y-2 xl:space-y-4 mb-10 md:mb-20">
-                        <img src="/image/yoga-2.svg" alt="Image" class="hover:opacity-75 transition ease-in-out duration-300">
+                        <img src="/image/feeds.png" alt="Image" class="hover:opacity-75 transition ease-in-out duration-300">
 
                         <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>
 
