@@ -213,7 +213,7 @@ const navbarOpen = ref(false)
                     </div>
 
                     <div class="flex lg:justify-end  justify-center">
-	                     <img src="/image/goat.png" alt="Image" class="w-[70%]">
+	                     <img src="/image/goat.png" alt="Image" class="w-[70%]" style="transform: scaleX(-1)">
                       
                     </div>
                 </div>
