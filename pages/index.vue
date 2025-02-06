@@ -15,66 +15,67 @@ const navbarOpen = ref(false)
 
 <template>
   <!-- home section -->
-        <section class="py-8 md:py-16 h-[80dvh] relative">
-	         <img src="/image/banner.jpg" class="bg-no-repeat bg-cover bg-center brightness-50 w-full h-full absolute top-0 z-[-1]" alt="">
-	         <div class="container max-w-screen-xl mx-auto px-4 flex flex-col justify-between">
+			<section class="py-8 md:py-16 h-[80dvh] relative bg-[url('/image/banner.jpg')] bg-cover bg-center bg-no-repeat">
+				    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
 
-                <nav class="flex-wrap lg:flex items-center justify-between mb-20 lg:mb-40">
-                    <div class="flex items-center justify-between mb-10 lg:mb-0">
-	                    <div class="flex gap-3 items-center">
-		                    <img src="/mavuno_feeds/android/mipmap-xhdpi/ic_launcher.png" alt="Logo">
-		                    <h2 class="text-3xl font-bold tracking-tight text-white">Mavuno Feeds</h2>
+		        <div class="relative z-10 container max-w-screen-xl mx-auto px-4">
+	
+	                <nav class="flex-wrap lg:flex items-center justify-between mb-20 lg:mb-40">
+	                    <div class="flex items-center justify-between mb-10 lg:mb-0">
+		                    <div class="flex gap-3 items-center">
+			                    <img src="/mavuno_feeds/android/mipmap-xhdpi/ic_launcher.png" alt="Logo">
+			                    <h2 class="text-3xl font-bold tracking-tight text-white">Mavuno Feeds</h2>
+		                    </div>
+		                    
+		                    
+		                    <!--                        <button class="flex items-center justify-center border border-[#006301] w-10 h-10 text-[#006301] rounded-md outline-none lg:hidden ml-auto" @click="navbarOpen = !navbarOpen">-->
+		                    <!--                            <i data-feather="menu"></i>-->
+		                    <!--                        </button>-->
+		                    <button class="flex items-center justify-center border border-white w-10 h-10 text-white rounded-md outline-none lg:hidden ml-auto" @click="navbarOpen = !navbarOpen">
+	                            <Icon name="ph:list-bold" class="text-white" />
+	                        </button>
 	                    </div>
-	                    
-	                    
-	                    <!--                        <button class="flex items-center justify-center border border-[#006301] w-10 h-10 text-[#006301] rounded-md outline-none lg:hidden ml-auto" @click="navbarOpen = !navbarOpen">-->
-	                    <!--                            <i data-feather="menu"></i>-->
-	                    <!--                        </button>-->
-	                    <button class="flex items-center justify-center border border-white w-10 h-10 text-white rounded-md outline-none lg:hidden ml-auto" @click="navbarOpen = !navbarOpen">
-                            <Icon name="ph:list-bold" class="text-white" />
-                        </button>
-                    </div>
-	                
-	                <!--                    <ul class="hidden lg:block lg:flex flex-col lg:flex-row lg:items-center lg:space-x-20" :class="{'hidden':!navbarOpen,'flex':navbarOpen}">-->
-                    <ul class="hidden lg:block lg:flex flex-col lg:flex-row lg:items-center lg:space-x-10" :class=" navbarOpen ? 'flex' : 'hidden'">
-                        <li class="font-medium text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mr-0 lg:mb-0 text-center">
-                            <a href="#about">About</a>
-                        </li>
-
-                        <li class="font-medium text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
-                            <a href="#service">Services</a>
-                        </li>
-
-                        <li class="font-medium text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
-                            <a href="#work">Works</a>
-                        </li>
-	                    <li class="font-medium text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
-                            <a href="#products">Products</a>
-                        </li>
-	                    <li class="font-medium text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
-                            <a href="#social">Social</a>
-                        </li>
-	                    
-	                      <li class="px-8 py-3 font-medium text-white text-lg text-center border-2 border-white rounded-md hover:bg-white hover:text-white transition ease-linear duration-300">
-                            <a href="#contact">Contact</a>
-                       </li>
-                    </ul>
-                </nav>
-
-                <header class="flex-col h-full lg:pt-20 xl:flex-row flex justify-between items-center w-full" style="width: 100%;">
-
-                    <div class="mx-auto flex-1 text-center xl:text-left xl:mx-0 mb-20 xl:mb-0">
-                        <h1 class="font-bold text-white text-3xl md:text-6xl leading-tight mb-10">Mavuno Feeds</h1>
-
-                        <p class="font-normal text-white text-sm md:text-lg mb-10">Manufactures of high-quality animal mineral salts supplements. <br> Our Products have been analyzed & certified by KEBS.</p>
-
-                        <div class="flex items-center justify-center lg:justify-start">
-                            <a href="#about" class="px-8 py-3 bg-[#006301] font-medium text-white text-md md:text-lg rounded-md hover:bg-green-700 transition ease-in-out duration-300 mr-14">About</a>
-                        </div>
-                    </div>
-                </header>
-
-            </div> <!-- container.// -->
+		                
+		                <!--                    <ul class="hidden lg:block lg:flex flex-col lg:flex-row lg:items-center lg:space-x-20" :class="{'hidden':!navbarOpen,'flex':navbarOpen}">-->
+	                    <ul class="bg-white lg:bg-transparent p-4 lg:p-0 rounded-lg lg:block lg:flex flex-col lg:flex-row lg:items-center lg:space-x-10" :class=" navbarOpen ? 'flex' : 'hidden'">
+	                        <li class="font-medium lg:text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mr-0 lg:mb-0 text-center">
+	                            <a href="#about">About</a>
+	                        </li>
+	
+	                        <li class="font-medium lg:text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
+	                            <a href="#service">Services</a>
+	                        </li>
+	
+	                        <li class="font-medium lg:text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
+	                            <a href="#work">Works</a>
+	                        </li>
+		                    <li class="font-medium lg:text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
+	                            <a href="#products">Products</a>
+	                        </li>
+		                    <li class="font-medium lg:text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
+	                            <a href="#social">Social</a>
+	                        </li>
+		                    
+		                      <li class="px-8 py-3 font-medium lg:text-white text-lg text-center border-2 lg:border-white rounded-md hover:bg-white hover:text-white transition ease-linear duration-300">
+	                            <a href="#contact">Contact</a>
+	                       </li>
+	                    </ul>
+	                </nav>
+	
+	                <header class="flex-col h-full lg:pt-20 xl:flex-row flex justify-between items-center w-full" style="width: 100%;">
+	
+	                    <div class="mx-auto flex-1 text-center xl:text-left xl:mx-0 mb-20 xl:mb-0">
+	                        <h1 class="font-bold text-white text-3xl md:text-6xl leading-tight mb-10">Mavuno Feeds</h1>
+	
+	                        <p class="font-normal text-white text-sm md:text-lg mb-10">Manufactures of high-quality animal mineral salts supplements. <br> Our Products have been analyzed & certified by KEBS.</p>
+	
+	                        <div class="flex items-center justify-center lg:justify-start">
+	                            <a href="#about" class="px-8 py-3 bg-[#006301] font-medium text-white text-md md:text-lg rounded-md hover:bg-green-700 transition ease-in-out duration-300 mr-14">About</a>
+	                        </div>
+	                    </div>
+	                </header>
+	
+	          </div> <!-- container.// -->
 	       
         </section>
 	
