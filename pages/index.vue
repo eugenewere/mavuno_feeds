@@ -4,83 +4,110 @@ useHead({
 })
 const contact = {
 	email: 'mavunofeeds093@gmail.com',
-	phone: '0700000000'
+	phone: '0700000000',
+	office: 'Moi Avenue, Nairobi, Kenya',
+	social: {
+		facebook: 'https://www.facebook.com/mavunofeeds',
+	}
 }
+const navbarOpen = ref(false)
 </script>
 
 <template>
   <!-- home section -->
-        <section class="py-8 md:py-16">
+        <section class="py-8 md:py-16 h-[80dvh] relative">
+	         <img src="/image/banner.jpg" class="bg-no-repeat bg-cover bg-center brightness-50 w-full h-full absolute top-0 z-[-1]" alt="">
+	         <div class="container max-w-screen-xl mx-auto px-4 flex flex-col justify-between">
 
-            <div class="container max-w-screen-xl mx-auto px-4">
-
-                <nav class="flex-wrap lg:flex items-center justify-between mb-20 lg:mb-40" x-data="{navbarOpen:false}">
+                <nav class="flex-wrap lg:flex items-center justify-between mb-20 lg:mb-40">
                     <div class="flex items-center justify-between mb-10 lg:mb-0">
-                        <img src="/mavuno_feeds/android/mipmap-xhdpi/ic_launcher.png" alt="Logo">
+	                    <div class="flex gap-3 items-center">
+		                    <img src="/mavuno_feeds/android/mipmap-xhdpi/ic_launcher.png" alt="Logo">
+		                    <h2 class="text-3xl font-bold tracking-tight text-white">Mavuno Feeds</h2>
+	                    </div>
+	                    
 	                    
 	                    <!--                        <button class="flex items-center justify-center border border-[#006301] w-10 h-10 text-[#006301] rounded-md outline-none lg:hidden ml-auto" @click="navbarOpen = !navbarOpen">-->
 	                    <!--                            <i data-feather="menu"></i>-->
 	                    <!--                        </button>-->
-	                    <button class="flex items-center justify-center border border-[#006301] w-10 h-10 text-[#006301] rounded-md outline-none lg:hidden ml-auto">
-                            <i data-feather="menu"></i>
+	                    <button class="flex items-center justify-center border border-white w-10 h-10 text-white rounded-md outline-none lg:hidden ml-auto" @click="navbarOpen = !navbarOpen">
+                            <Icon name="ph:list-bold" class="text-white" />
                         </button>
                     </div>
 	                
 	                <!--                    <ul class="hidden lg:block lg:flex flex-col lg:flex-row lg:items-center lg:space-x-20" :class="{'hidden':!navbarOpen,'flex':navbarOpen}">-->
-                    <ul class="hidden lg:block lg:flex flex-col lg:flex-row lg:items-center lg:space-x-10">
-                        <li class="font-medium text-[#006301] text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mr-0 lg:mb-0 text-center">
-                            <a href="#offers">Function</a>
+                    <ul class="hidden lg:block lg:flex flex-col lg:flex-row lg:items-center lg:space-x-10" :class=" navbarOpen ? 'flex' : 'hidden'">
+                        <li class="font-medium text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mr-0 lg:mb-0 text-center">
+                            <a href="#about">About</a>
                         </li>
 
-                        <li class="font-medium text-[#006301] text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
-                            <a href="#what_we_do">What We Do</a>
+                        <li class="font-medium text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
+                            <a href="#service">Services</a>
                         </li>
 
-                        <li class="font-medium text-[#006301] text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
-                            <a href="#works">Works</a>
+                        <li class="font-medium text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
+                            <a href="#work">Works</a>
                         </li>
-	                    <li class="font-medium text-[#006301] text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
+	                    <li class="font-medium text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
+                            <a href="#products">Products</a>
+                        </li>
+	                    <li class="font-medium text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
                             <a href="#social">Social</a>
                         </li>
 	                    
-	                      <li class="px-8 py-3 font-medium text-green-700 text-lg text-center border-2 border-green-700 rounded-md hover:bg-[#006301] hover:text-white transition ease-linear duration-300">
+	                      <li class="px-8 py-3 font-medium text-white text-lg text-center border-2 border-white rounded-md hover:bg-white hover:text-white transition ease-linear duration-300">
                             <a href="#contact">Contact</a>
                        </li>
                     </ul>
                 </nav>
 
-                <header class="flex-col xl:flex-row flex justify-between items-center w-full" style="width: 100%;">
+                <header class="flex-col h-full lg:pt-20 xl:flex-row flex justify-between items-center w-full" style="width: 100%;">
 
-                    <div class="mx-auto text-center xl:text-left xl:mx-0 mb-20 xl:mb-0">
-                        <h1 class="font-bold text-gray-700 text-3xl md:text-6xl leading-tight mb-10">Mavuno Feeds</h1>
+                    <div class="mx-auto flex-1 text-center xl:text-left xl:mx-0 mb-20 xl:mb-0">
+                        <h1 class="font-bold text-white text-3xl md:text-6xl leading-tight mb-10">Mavuno Feeds</h1>
 
-                        <p class="font-normal text-gray-500 text-sm md:text-lg mb-10">Manufactures of high-quality animal mineral salts supplements. <br> Our Products have been analyzed & certified by KEBS.</p>
+                        <p class="font-normal text-white text-sm md:text-lg mb-10">Manufactures of high-quality animal mineral salts supplements. <br> Our Products have been analyzed & certified by KEBS.</p>
 
                         <div class="flex items-center justify-center lg:justify-start">
-                            <a href="#offers" class="px-8 py-3 bg-[#006301] font-medium text-white text-md md:text-lg rounded-md hover:bg-green-700 transition ease-in-out duration-300 mr-14">Function</a>
-	                        
-	                        <!--                            <a href="#" class="hidden lg:block font-normal text-gray-500 text-lg mr-8">Watch Showreel</a>-->
+                            <a href="#about" class="px-8 py-3 bg-[#006301] font-medium text-white text-md md:text-lg rounded-md hover:bg-green-700 transition ease-in-out duration-300 mr-14">About</a>
                         </div>
-                    </div>
-	                
-	                <!--                    <div class="mx-auto  lg:flex lg:items-center lg:justify-center lg:mx-0" >-->
-	                <!--                        <img style="transform: scaleX(-1);" class="lg:ml-auto max-w-2/5 w-full" src="/image/1cow1.png" alt="Image">-->
-	                <!--                    </div>-->
-										<div class="mx-auto  lg:flex lg:items-center lg:justify-center lg:mx-0">
-                        <img style="max-width: 70%; transform: scaleX(-1); " class="mx-auto lg:ml-auto" src="/image/1cow1.png" alt="Image">
                     </div>
                 </header>
 
             </div> <!-- container.// -->
+	       
+        </section>
+	
+        <section id="about" class="py-8 md:py-16">
+
+            <div class="container max-w-screen-xl mx-auto px-4">
+
+                <h1 class="font-semibold text-gray-700 text-3xl md:text-4xl text-center mb-5">About Us</h1>
+
+                <p class="font-normal text-gray-500 text-md md:text-lg text-center mb-20 md:mb-40">What we do in our company.</p>
+
+                <div class="flex flex-col lg:grid grid-cols-2 ">
+                    <div class="mx-auto flex-shrink-0  xl:mx-0 mb-20 xl:mb-0">
+                       <img src="/image/1cow1.png" alt="Image" class="w-[50%] lg:w-[70%] mx-auto lg:mr-auto" style="transform: scaleX(1)">
+                    </div>
+
+                    <div class="mx-auto  xl:mx-0 text-center xl:text-left">
+                       <h1 class="font-bold text-gray-700 text-3xl md:text-4xl mb-10">High Phosphorous Dairies <br> Mineral Supplements.</h1>
+
+                        <p class="font-normal text-gray-400 text-sm md:text-lg">
+	                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                        </p>
+                    </div>
+                </div>
+            </div> <!-- container.// -->
 
         </section>
-  <!-- home section //end -->
   
   <!-- feature section -->
-        <section id="offers" class="py-8 md:py-16">
+        <section id="service" class="py-8 md:py-16">
 
             <div class="container max-w-screen-xl mx-auto px-4 pt-10">
-								<h1 class="font-semibold text-gray-700 text-3xl md:text-4xl text-center mb-5">Distinct Function</h1>
+								<h1 class="font-semibold text-gray-700 text-3xl md:text-4xl text-center mb-5">Services</h1>
 
                 <p class="font-normal text-gray-500 text-md md:text-lg text-center mb-12 md:mb-40">Specific role, operation, or purpose that is clearly <br> separate from others within a system, process, or organization</p>
 	            
@@ -140,7 +167,7 @@ const contact = {
         </section>
   <!-- feature section //end -->
 
-        <section id="what_we_do" class="py-8 md:py-16">
+        <section id="work" class="py-8 md:py-16">
 
             <div class="container max-w-screen-xl mx-auto px-4">
 
@@ -149,8 +176,8 @@ const contact = {
                 <p class="font-normal text-gray-500 text-md md:text-lg text-center mb-20 md:mb-40">Manufactures of high-quality animal mineral salts supplements. <br> Our Products have been analyzed and certified by KEBS.</p>
 
                 <div class="flex flex-col xl:flex-row items-center justify-between mb-20 md:mb-40">
-                    <div class="mx-auto xl:mx-0 mb-20 xl:mb-0">
-                       <img src="/image/2cow1.png" alt="Image" class="w-[70%] mr-auto" style="transform: scaleX(1)">
+                    <div class="flex lg:justify-start  justify-center">
+                       <img src="/image/2cow1.png" alt="Image" class="w-[70%]" style="transform: scaleX(1)">
                     </div>
 
                     <div class="mx-auto xl:mx-0 text-center xl:text-left">
@@ -185,15 +212,15 @@ const contact = {
 												</ul>
                     </div>
 
-                    <div class="mx-auto xl:mx-0 pb-20 lg:pb-0">
-	                     <img src="/image/goat.png" alt="Image" class="w-[50%] lg:ml-auto mx-auto">
+                    <div class="flex lg:justify-end  justify-center">
+	                     <img src="/image/goat.png" alt="Image" class="w-[70%]">
                       
                     </div>
                 </div>
 
                 <div class="flex flex-col xl:flex-row items-center justify-between">
-                    <div class="mx-auto xl:mx-0 mb-20 xl:mb-0">
-                        <img src="/image/cowfeeds.png" alt="Image" class="w-[70%] mx-auto lg:mr-auto" style="transform: scaleX(-1)">
+                    <div class="flex lg:justify-start  justify-center">
+                        <img src="/image/cowfeeds.png" alt="Image" class="w-[70%] " style="transform: scaleX(-1)">
                     </div>
 
                     <div class="mx-auto xl:mx-0 text-center xl:text-left">
@@ -213,13 +240,13 @@ const contact = {
 
         </section>
 
-        <section id="works" class="py-8 md:py-16">
+        <section id="products" class="py-8 md:py-16">
 
             <div class="container max-w-screen-xl mx-auto px-4">
 
-                <h1 class="font-semibold text-gray-700 text-3xl md:text-4xl text-center mb-5">Our works</h1>
+                <h1 class="font-semibold text-gray-700 text-3xl md:text-4xl text-center mb-5">Products</h1>
 
-                <p class="font-normal text-gray-500 text-md md:text-lg text-center mb-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit <br> anim id est laborum.</p>
+                <p class="font-normal text-gray-500 text-md md:text-lg text-center mb-20">Sample of animal feeds we sell</p>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 xl:gap-10">
                     <div class="space-y-2 xl:space-y-4">
@@ -283,14 +310,23 @@ const contact = {
 	
 	                <p class="font-normal text-gray-500 text-md md:text-lg text-center mb-20 md:mb-40">Connect to us Through Our Socials.</p>
 	
-	                <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 ml-4 md:ml-20 xl:ml-0 mb-20 xl:mb-40">
-	                    <img src="/image/brand-1.svg" alt="Image" class="mb-5 md:mb-10 xl:mb-0">
+	                <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 ml-4 md:ml-20 xl:ml-0 mb-20 xl:mb-40">
+		                <a :href="contact.social.facebook" target="_blank">
+			                <div class="">
+				                <img src="/image/social/facebook.png" alt="Image" class="w-[60%] mx-auto mb-5 md:mb-10 xl:mb-0">
+			                </div>
+		                </a>
+		                <a :href="contact.social.facebook" target="_blank">
+			                 <div class="">
+				                <img src="/image/social/linkedin.png" alt="Image" class="w-[60%] mx-auto mb-5 md:mb-0">
+			                </div>
+		                </a>
+		                
+		               
+	                 
 	
-	                    <img src="/image/brand-2.svg" alt="Image" class="mb-5 md:mb-0">
+	                 
 	
-	                    <img src="/image/brand-3.svg" alt="Image" class="mb-5 md:mb-10 xl:mb-0">
-	
-	                    <img src="/image/brand-4.svg" alt="Image" class="mb-5 md:mb-0">
 	                </div>
                 </div>
 
@@ -324,25 +360,25 @@ const contact = {
                     <div class="mb-10 lg:mb-0">
                         <img src="/mavuno_feeds/android/mipmap-xhdpi/ic_launcher.png" alt="Image" class="mb-5 mx-auto lg:mx-0">
     
-                        <p class="font-normal text-gray-400 text-md">Manufactures of high-quality animal <br> mineral salts supplements. <br> Our Products have been <br> analyzed and certified by KEBS.</p>
+                        <p class="font-normal text-gray-400 text-lg">Manufactures of high-quality animal <br> mineral salts supplements. <br> Our Products have been <br> analyzed and certified by KEBS.</p>
                     </div>
 		                <div class="flex gap-12">
 											 <div class="space-y-4 mb-10 lg:mb-0">
 	                        <h4 class="font-semibold text-gray-500 text-lg mb-6">Our Company</h4>
 	
-	                        <a href="#offers" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Function</a>
-	
-	                        <a href="#what_we_do" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">What We Do</a>
-	
-	                        <a href="#works" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Works</a>
-	                        <a href="#social" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Social</a>
-	                        <a href="#contact" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Contact</a>
+	                        <a href="#about" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">About</a>
+	                        <a href="#service" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Services</a>
+	                        <a href="#work" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Works</a>
+	                        <a href="#products" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Products</a>
+	                        <a href="#social" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Social</a>
+	                        <a href="#contact" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Contact</a>
 	                    </div>
 	                    <div class="space-y-4 mb-10 lg:mb-0">
 	                        <h4 class="font-semibold text-gray-500 text-lg mb-6">Contact</h4>
 	
-	                        <a href="#" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Email: {{ contact.email }}</a>
-	                        <a href="#" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Phone: {{ contact.phone }}</a>
+	                        <a :href="`mailto:${contact.email}`" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Email: <span class="text-green-500">{{ contact.email }}</span> </a>
+	                        <a :href="`tel:${contact.phone}`" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Phone:  <span class="text-green-500">{{ contact.phone }}</span>  </a>
+	                        <a href="#contact" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Office:  <span class="text-green-500">{{ contact.office }}</span>  </a>
 	                    </div>
 		                </div>
 
