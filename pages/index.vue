@@ -349,17 +349,11 @@ const navbarOpen = ref(false)
 	                </div>
                 </div>
 
-                <div class="flex flex-wrap md:flex-nowrap justify-between mb-8">
+                <div class="flex flex-wrap md:flex-nowrap justify-between mb-2">
                     <div>
                         <p class="font-normal text-gray-500 text-md md:text-lg uppercase mb-3">Let's talk</p>
 
                         <h1 class="font-bold text-gray-700 text-xl md:text-4xl pb-20">Got a question?  </h1>
-	                      
-	                    <p class="font-normal text-gray-500 text-md md:text-lg uppercase mb-3">Working Hours</p>
-	                      <p class="font-normal text-gray-500 text-md md:text-lg mb-4 md:mb-10">Monday - Thursday 8:00am - 5:30 pm </p>
-	                      <p class="font-normal text-gray-500 text-md md:text-lg mb-4 md:mb-10">Friday 8:00am - 5:00 pm </p>
-	                      <p class="font-normal text-gray-500 text-md md:text-lg mb-4 md:mb-10">Saturday 8:00 am - 1:00 pm </p>
-	                      <p class="font-normal text-gray-500 text-md md:text-lg mb-4 md:mb-10">Sunday - Closed </p>
                     </div>
 
                     <div class="mt-10">
@@ -368,10 +362,29 @@ const navbarOpen = ref(false)
                         </a>
                     </div>
                 </div>
-
-                <hr class="text-gray-300 mb-8">
+	             
 
                 <p class="font-normal text-gray-500 text-md md:text-lg mb-4 md:mb-10">We’d love to hear from you! Contact us today to discuss how we can assist you. </p>
+	             <hr class="text-gray-300 mb-8">
+                <div class="flex flex-wrap md:flex-nowrap justify-between mb-8">
+                    <div class="space-y-6">
+                        <p class="font-normal text-gray-500 text-md md:text-lg uppercase mb-3">Working Hours</p>
+												<div class="space-y-4">
+		                      <p class="font-normal text-gray-500 text-md md:text-lg "><strong>Monday - Thursday</strong> - 8:00am - 5:30 pm </p>
+		                      <p class="font-normal text-gray-500 text-md md:text-lg "><strong>Friday</strong> - 8:00am - 5:00 pm </p>
+		                      <p class="font-normal text-gray-500 text-md md:text-lg "><strong>Saturday</strong> - 8:00 am - 1:00 pm </p>
+		                      <p class="font-normal text-gray-500 text-md md:text-lg "><strong>Sunday</strong> - Closed </p>
+												</div>
+                    </div>
+
+                    
+                </div>
+								
+
+                <p class="font-normal text-gray-500 text-md md:text-lg mb-4 md:mb-10">
+	                Visit us at <a :href="contact.office.link" target="_blank" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300 text-green-500">  {{ contact.office.name }} </a>
+                </p>
+                <hr class="text-gray-300 mb-8">
 
             </div> <!-- container.// -->
             
