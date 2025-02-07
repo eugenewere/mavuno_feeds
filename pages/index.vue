@@ -5,7 +5,10 @@ useHead({
 const contact = {
 	email: 'mavunofeeds@gmail.com',
 	phone: '0722718092',
-	office: 'Moi Avenue, Nairobi, Kenya',
+	office: {
+		name: 'Industial Area, Likoni Road, Nairobi, Kenya',
+		link: 'https://maps.app.goo.gl/5w188bZLxs1T9v846',
+	},
 	social: {
 		facebook: 'https://www.facebook.com/mavunofeeds',
 	}
@@ -15,15 +18,15 @@ const navbarOpen = ref(false)
 
 <template>
   <!-- home section -->
-			<section class="py-8 md:py-16 h-[60dvh] relative bg-[url('/image/banner.jpg')] bg-cover bg-center bg-no-repeat">
-				    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+				<section class="py-8 md:py-16 h-[100dvh] lg:h-[80dvh] relative bg-[url('/image/banner.jpg')] bg-cover bg-center bg-no-repeat overflow-hidden">
+				    <div class="absolute inset-0 bg-black bg-opacity-30"></div>
 
 		        <div class="relative z-10 container max-w-screen-xl mx-auto px-4">
 	
 	                <nav class="flex-wrap lg:flex items-center justify-between mb-20 lg:mb-40">
 	                    <div class="flex items-center justify-between mb-10 lg:mb-0">
 		                    <div class="flex gap-3 items-center">
-			                    <img src="/mavuno_feeds/android/mipmap-xhdpi/ic_launcher.png" alt="Mavuno Feeds Industries">
+			                    <img src="/mavuno_feeds/android/mipmap-xhdpi/ic_launcher.png" class="lg:w-[140px]" alt="Mavuno Feeds Industries">
 			                    <h2 class="text-3xl font-bold tracking-tight text-white">Mavuno Feeds Industries</h2>
 		                    </div>
 		                    
@@ -354,7 +357,13 @@ const navbarOpen = ref(false)
                     <div>
                         <p class="font-normal text-gray-500 text-md md:text-lg uppercase mb-3">Let's talk</p>
 
-                        <h1 class="font-bold text-gray-700 text-xl md:text-4xl">Got a question?  </h1>
+                        <h1 class="font-bold text-gray-700 text-xl md:text-4xl pb-20">Got a question?  </h1>
+	                      
+	                    <p class="font-normal text-gray-500 text-md md:text-lg uppercase mb-3">Working Hours</p>
+	                      <p class="font-normal text-gray-500 text-md md:text-lg mb-4 md:mb-10">Monday - Thursday 8:00am - 5:30 pm </p>
+	                      <p class="font-normal text-gray-500 text-md md:text-lg mb-4 md:mb-10">Friday 8:00am - 5:00 pm </p>
+	                      <p class="font-normal text-gray-500 text-md md:text-lg mb-4 md:mb-10">Saturday 8:00 am - 1:00 pm </p>
+	                      <p class="font-normal text-gray-500 text-md md:text-lg mb-4 md:mb-10">Sunday - Closed </p>
                     </div>
 
                     <div class="mt-10">
@@ -398,7 +407,7 @@ const navbarOpen = ref(false)
 	
 	                        <a :href="`mailto:${contact.email}`" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Email: <span class="text-green-500">{{ contact.email }}</span> </a>
 	                        <a :href="`tel:${contact.phone}`" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Phone:  <span class="text-green-500">{{ contact.phone }}</span>  </a>
-<!--	                        <a href="#contact" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Office:  <span class="text-green-500">{{ contact.office }}</span>  </a>-->
+	                        <a :href="contact.office.link" target="_blank" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Office:  <span class="text-green-500">{{ contact.office.name }}</span>  </a>
 	                    </div>
 		                </div>
 
