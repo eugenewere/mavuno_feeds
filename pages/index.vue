@@ -3,8 +3,8 @@ useHead({
 	title: 'Mavuno Feeds'
 })
 const contact = {
-	email: 'mavunofeeds093@gmail.com',
-	phone: '0700000000',
+	email: 'mavunofeeds@gmail.com',
+	phone: '0722718092',
 	office: 'Moi Avenue, Nairobi, Kenya',
 	social: {
 		facebook: 'https://www.facebook.com/mavunofeeds',
@@ -15,7 +15,7 @@ const navbarOpen = ref(false)
 
 <template>
   <!-- home section -->
-			<section class="py-8 md:py-16 h-[80dvh] relative bg-[url('/image/banner.jpg')] bg-cover bg-center bg-no-repeat">
+			<section class="py-8 md:py-16 h-[60dvh] relative bg-[url('/image/banner.jpg')] bg-cover bg-center bg-no-repeat">
 				    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
 
 		        <div class="relative z-10 container max-w-screen-xl mx-auto px-4">
@@ -23,8 +23,8 @@ const navbarOpen = ref(false)
 	                <nav class="flex-wrap lg:flex items-center justify-between mb-20 lg:mb-40">
 	                    <div class="flex items-center justify-between mb-10 lg:mb-0">
 		                    <div class="flex gap-3 items-center">
-			                    <img src="/mavuno_feeds/android/mipmap-xhdpi/ic_launcher.png" alt="Logo">
-			                    <h2 class="text-3xl font-bold tracking-tight text-white">Mavuno Feeds</h2>
+			                    <img src="/mavuno_feeds/android/mipmap-xhdpi/ic_launcher.png" alt="Mavuno Feeds Industries">
+			                    <h2 class="text-3xl font-bold tracking-tight text-white">Mavuno Feeds Industries</h2>
 		                    </div>
 		                    
 		                    
@@ -46,9 +46,9 @@ const navbarOpen = ref(false)
 	                            <a href="#service">Services</a>
 	                        </li>
 	
-	                        <li class="font-medium lg:text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
-	                            <a href="#work">Works</a>
-	                        </li>
+<!--	                        <li class="font-medium lg:text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">-->
+<!--	                            <a href="#work">Works</a>-->
+<!--	                        </li>-->
 		                    <li class="font-medium lg:text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
 	                            <a href="#products">Products</a>
 	                        </li>
@@ -85,7 +85,7 @@ const navbarOpen = ref(false)
 
                 <h1 class="font-semibold text-gray-700 text-3xl md:text-4xl text-center mb-5">About Us</h1>
 
-                <p class="font-normal text-gray-500 text-md md:text-lg text-center mb-20 md:mb-40">What we do in our company.</p>
+                <p class="font-normal text-gray-500 text-md md:text-lg text-center mb-10 md:mb-20">What we do in our company.</p>
 
                 <div class="flex flex-col lg:grid grid-cols-2 ">
                     <div class="mx-auto flex-shrink-0  xl:mx-0 mb-20 xl:mb-0">
@@ -93,72 +93,99 @@ const navbarOpen = ref(false)
                     </div>
 
                     <div class="mx-auto  xl:mx-0 text-center xl:text-left">
-                       <h1 class="font-bold text-gray-700 text-3xl md:text-4xl mb-10">High Phosphorous Dairies <br> Mineral Supplements.</h1>
+<!--                       <h1 class="font-bold text-gray-700 text-3xl md:text-4xl mb-10">High Phosphorous Dairies <br> Mineral Supplements.</h1>-->
 
-                        <p class="font-normal text-gray-400 text-sm md:text-lg">
-	                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                        <p class="font-normal text-gray-600 text-sm md:text-lg">
+	                        Manufacturers of High-Quality Animal Mineral Salt Supplements
+													We are a leading manufacturer of premium animal mineral salt supplements, dedicated to enhancing livestock health and productivity. Our products are scientifically formulated to meet the nutritional needs of various livestock species, ensuring optimal growth, improved immunity, and enhanced production efficiency.
+													
+													With a commitment to quality and safety, our supplements undergo rigorous testing and quality control measures. Each product has been thoroughly analyzed and certified by the Kenya Bureau of Standards (KEBS), affirming compliance with industry standards and regulatory requirements.
+													
+													By leveraging advanced manufacturing processes and high-quality raw materials, we deliver mineral supplements that support bone development, reproductive health, and overall well-being in livestock. Our solutions cater to farmers, feed manufacturers, and the broader agricultural sector, providing a reliable source of essential minerals tailored to different animal species and production systems.
+													
+													For farmers seeking superior nutrition solutions, our mineral salt supplements are the ideal choice for boosting animal health and maximizing returns on investment.
                         </p>
                     </div>
                 </div>
             </div> <!-- container.// -->
 
         </section>
-  
+
   <!-- feature section -->
         <section id="service" class="py-8 md:py-16">
 
             <div class="container max-w-screen-xl mx-auto px-4 pt-10">
 								<h1 class="font-semibold text-gray-700 text-3xl md:text-4xl text-center mb-5">Services</h1>
 
-                <p class="font-normal text-gray-500 text-md md:text-lg text-center mb-12 md:mb-40">Specific role, operation, or purpose that is clearly <br> separate from others within a system, process, or organization</p>
+                <p class="font-normal text-gray-500 text-md md:text-lg text-center mb-12 md:mb-40">What we offer within our organization</p>
 	            
-                <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
                     <div class="text-center mb-10 xl:mb-0">
                         <div class="flex items-center justify-center">
                             <div class="w-20 py-7 flex justify-center bg-purple-50 text-purple-500 rounded-md mb-5 md:mb-10">
-	                              <Icon name="ph:factory" size="30" />
+	                              <Icon name="ph:align-bottom-fill" size="30" />
 	                              
                             </div>
                         </div>
 
-                        <h2 class="font-semibold text-gray-700 text-xl md:text-3xl mb-5">Manufacturing & Production</h2>
+                        <h2 class="font-semibold text-gray-700 text-xl md:text-3xl mb-5">Custom Formulation</h2>
 
-                        <p class="font-normal text-gray-400 text-sm md:text-lg">You formulate and produce high-quality animal feeds and nutritional supplements tailored to different livestock, ensuring optimal health and productivity.</p>
+                        <p class="font-normal text-gray-400 text-sm md:text-lg">Tailor-made mineral supplements for different livestock species.</p>
                     </div>
-
                     <div class="text-center mb-10 md:mb-0">
                         <div class="flex items-center justify-center">
                             <div class="w-20 py-7 flex justify-center bg-red-50 text-red-500 rounded-md mb-5 md:mb-10">
-                                <Icon name="ph:truck-trailer" size="30" />
+                                <Icon name="ph:circle-wavy-question-fill" size="30" />
                             </div>
                         </div>
 
-                        <h2 class="font-semibold text-gray-700 text-xl md:text-3xl mb-5">Distribution & Supply Chain</h2>
+                        <h2 class="font-semibold text-gray-700 text-xl md:text-3xl mb-5">Quality Assurance </h2>
 
-                        <p class="font-normal text-gray-400 text-sm md:text-lg">You manage logistics and distribution, ensuring timely delivery of feeds and supplements to farmers, retailers, and wholesalers.</p>
+                        <p class="font-normal text-gray-400 text-sm md:text-lg">Certified by KEBS, ensuring safety and compliance.</p>
                     </div>
-
                     <div class="text-center">
                         <div class="flex items-center justify-center">
                             <div class="w-20 py-7 flex justify-center bg-blue-50 text-blue-500 rounded-md mb-5 md:mb-10">
-                                <Icon name="ph:magnifying-glass-duotone" size="30" />
+                                <Icon name="ph:factory-fill" size="30" />
                             </div>
                         </div>
 
-                        <h2 class="font-semibold text-gray-700 text-xl md:text-3xl mb-5">Research & Development</h2>
+                        <h2 class="font-semibold text-gray-700 text-xl md:text-3xl mb-5">Bulk Manufacturing & Private Labeling</h2>
 
-                        <p class="font-normal text-gray-400 text-sm md:text-lg">You innovate new feed formulas based on scientific research, improving animal nutrition, reducing disease risks, and enhancing growth rates.</p>
+                        <p class="font-normal text-gray-400 text-sm md:text-lg">Large-scale production and branding solutions.</p>
                     </div>
-	                 <div class="text-center">
+	                  <div class="text-center">
                         <div class="flex items-center justify-center">
-                            <div class="w-20 py-7 flex justify-center bg-green-50 text-[#006301] rounded-md mb-5 md:mb-10">
-                               <Icon name="ph:users-duotone" size="30" />
+                            <div class="w-20 py-7 flex justify-center bg-stone-50 text-stone-500 rounded-md mb-5 md:mb-10">
+                               <Icon name="ph:user-sound-fill" size="30" />
                             </div>
                         </div>
 
-                        <h2 class="font-semibold text-gray-700 text-xl md:text-3xl mb-5">Farmer Education & Support</h2>
+                        <h2 class="font-semibold text-gray-700 text-xl md:text-3xl mb-5">Technical Support & Consultancy </h2>
 
-                        <p class="font-normal text-gray-400 text-sm md:text-lg">You provide training, guidance, and customer support to farmers, helping them choose the right feed, optimize feeding programs, and improve livestock performance.</p>
+                        <p class="font-normal text-gray-400 text-sm md:text-lg">Expert advice on livestock nutrition and supplementation.</p>
+                    </div>
+	                  <div class="text-center">
+                        <div class="flex items-center justify-center">
+                            <div class="w-20 py-7 flex justify-center bg-yellow-50 text-yellow-500 rounded-md mb-5 md:mb-10">
+                               <Icon name="ph:truck-trailer-fill" size="30" />
+                            </div>
+                        </div>
+
+                        <h2 class="font-semibold text-gray-700 text-xl md:text-3xl mb-5">Distribution & Supply</h2>
+
+                        <p class="font-normal text-gray-400 text-sm md:text-lg">Efficient logistics for timely delivery.</p>
+                    </div>
+	                  <div class="text-center">
+                        <div class="flex items-center justify-center">
+                            <div class="w-20 py-7 flex justify-center bg-green-50 text-green-500 rounded-md mb-5 md:mb-10">
+                               <Icon name="ph:magnifying-glass-fill" size="30" />
+                            </div>
+                        </div>
+
+                        <h2 class="font-semibold text-gray-700 text-xl md:text-3xl mb-5">Research & Innovation</h2>
+
+                        <p class="font-normal text-gray-400 text-sm md:text-lg">Continuous improvement in animal nutrition solutions.</p>
                     </div>
 	                
                 </div>
@@ -168,7 +195,7 @@ const navbarOpen = ref(false)
         </section>
   <!-- feature section //end -->
 
-        <section id="work" class="py-8 md:py-16">
+        <section id="work" class="hidden py-8 md:py-16">
 
             <div class="container max-w-screen-xl mx-auto px-4">
 
@@ -251,51 +278,49 @@ const navbarOpen = ref(false)
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 xl:gap-10">
                     <div class="space-y-2 xl:space-y-4">
-                        <img src="/image/feeds.png" alt="Image" class="hover:opacity-75 transition ease-in-out duration-300">
+                        <img src="/image/products/product1.jpeg" alt="Image" class="hover:opacity-75 min-h-[430px] rounded-lg max-h-[430px] w-full object-cover transition ease-in-out duration-300">
 
-                        <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>
-
-                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Yoga School</a>
+<!--												<p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>-->
+                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Mavuno Feeds</a>
                     </div>
 
                     <div class="space-y-2 xl:space-y-4">
-                        <img src="/image/feeds.png" alt="Image" class="hover:opacity-75 transition ease-in-out duration-300">
+                        <img src="/image/products/product2.jpeg" alt="Image" class="hover:opacity-75 min-h-[430px] rounded-lg max-h-[430px] w-full object-cover transition ease-in-out duration-300">
+<!--												<p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>-->
 
-                        <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>
-
-                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Yoga School</a>
+                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Reimer Feed Mill</a>
                     </div>
 
                     <div class="space-y-2 xl:space-y-4">
-                        <img src="/image/feeds.png" alt="Image" class="hover:opacity-75 transition ease-in-out duration-300">
+                        <img src="/image/products/product3.jpeg" alt="Image" class="hover:opacity-75 min-h-[430px] rounded-lg max-h-[430px] w-full object-cover transition ease-in-out duration-300">
 
-                        <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>
+<!--                        <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>-->
 
-                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Yoga School</a>
+                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">BelMill Ranch Cubes</a>
                     </div>
 
                     <div class="space-y-2 xl:space-y-4">
-                        <img src="/image/feeds.png" alt="Image" class="hover:opacity-75 transition ease-in-out duration-300">
+                        <img src="/image/products/product4.jpeg" alt="Image" class="hover:opacity-75 min-h-[430px] rounded-lg max-h-[430px] w-full object-cover transition ease-in-out duration-300">
 
-                        <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>
+<!--                        <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>-->
 
-                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Yoga School</a>
+                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Cattlehos - Heat Booster</a>
                     </div>
 
                     <div class="space-y-2 xl:space-y-4">
-                        <img src="/image/feeds.png" alt="Image" class="hover:opacity-75 transition ease-in-out duration-300">
+                        <img src="/image/products/product5.jpeg" alt="Image" class="hover:opacity-75 min-h-[430px] rounded-lg max-h-[430px] w-full object-cover transition ease-in-out duration-300">
 
-                        <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>
+<!--                        <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>-->
 
-                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Yoga School</a>
+                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Cattlehos - Heat Booster</a>
                     </div>
 
                     <div class="space-y-2 xl:space-y-4 mb-10 md:mb-20">
-                        <img src="/image/feeds.png" alt="Image" class="hover:opacity-75 transition ease-in-out duration-300">
+                        <img src="/image/products/product6.jpeg" alt="Image" class="hover:opacity-75 min-h-[430px] rounded-lg max-h-[430px] w-full object-cover transition ease-in-out duration-300">
 
-                        <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>
+<!--                        <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>-->
 
-                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Yoga School</a>
+                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Milk Booster - PR</a>
                     </div>
                 </div>
 	            
@@ -309,25 +334,19 @@ const navbarOpen = ref(false)
 
 	                <h1 class="font-semibold text-gray-700 text-3xl md:text-4xl text-center mb-5">Social Accounts</h1>
 	
-	                <p class="font-normal text-gray-500 text-md md:text-lg text-center mb-20 md:mb-40">Connect to us Through Our Socials.</p>
+	                <p class="font-normal text-gray-500 text-md md:text-lg text-center mb-20 md:mb-30">Connect to us Through Our Socials.</p>
 	
 	                <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 ml-4 md:ml-20 xl:ml-0 mb-20 xl:mb-40">
 		                <a :href="contact.social.facebook" target="_blank">
 			                <div class="">
-				                <img src="/image/social/facebook.png" alt="Image" class="w-[60%] mx-auto mb-5 md:mb-10 xl:mb-0">
+				                <img src="/image/social/facebook.png" alt="Image" class="w-[40%] mx-auto mb-5 md:mb-10 xl:mb-0">
 			                </div>
 		                </a>
 		                <a :href="contact.social.facebook" target="_blank">
 			                 <div class="">
-				                <img src="/image/social/linkedin.png" alt="Image" class="w-[60%] mx-auto mb-5 md:mb-0">
+				                <img src="/image/social/instagram.png" alt="Image" class="w-[40%] mx-auto mb-5 md:mb-0">
 			                </div>
 		                </a>
-		                
-		               
-	                 
-	
-	                 
-	
 	                </div>
                 </div>
 
@@ -369,7 +388,7 @@ const navbarOpen = ref(false)
 	
 	                        <a href="#about" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">About</a>
 	                        <a href="#service" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Services</a>
-	                        <a href="#work" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Works</a>
+<!--	                        <a href="#work" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Works</a>-->
 	                        <a href="#products" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Products</a>
 	                        <a href="#social" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Social</a>
 	                        <a href="#contact" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Contact</a>
@@ -379,7 +398,7 @@ const navbarOpen = ref(false)
 	
 	                        <a :href="`mailto:${contact.email}`" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Email: <span class="text-green-500">{{ contact.email }}</span> </a>
 	                        <a :href="`tel:${contact.phone}`" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Phone:  <span class="text-green-500">{{ contact.phone }}</span>  </a>
-	                        <a href="#contact" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Office:  <span class="text-green-500">{{ contact.office }}</span>  </a>
+<!--	                        <a href="#contact" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Office:  <span class="text-green-500">{{ contact.office }}</span>  </a>-->
 	                    </div>
 		                </div>
 
