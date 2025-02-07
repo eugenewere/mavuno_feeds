@@ -21,20 +21,15 @@ const navbarOpen = ref(false)
 				<section class="py-8 md:py-16 h-[100dvh] lg:h-[80dvh] relative bg-[url('/image/banner.jpg')] bg-cover bg-center bg-no-repeat overflow-hidden">
 				    <div class="absolute inset-0 bg-black bg-opacity-30"></div>
 
-		        <div class="relative z-10 container max-w-screen-xl mx-auto px-4">
+		        <div class="relative z-10 h-full flex flex-col justify-between container max-w-screen-xl mx-auto px-4">
 	
-	                <nav class="flex-wrap lg:flex items-center justify-between mb-20 lg:mb-40">
+	                <nav class="flex-wrap lg:flex items-center justify-between">
 	                    <div class="flex items-center justify-between mb-10 lg:mb-0">
-		                    <div class="flex gap-3 items-center">
-			                    <img src="/mavuno_feeds/android/mipmap-xhdpi/ic_launcher.png" class="lg:w-[140px]" alt="Mavuno Feeds Industries">
-			                    <h2 class="text-3xl font-bold tracking-tight text-white">Mavuno Feeds Industries</h2>
+		                    <div class="flex gap-1 lg:gap-3 items-center">
+			                    <img src="/mavuno_feeds/android/mipmap-xhdpi/ic_launcher.png" class="w-[40px] lg:w-[140px]" alt="Mavuno Feeds Industries">
+			                    <h2 class="text-xs sm:text-sm md:text-lg lg:text-3xl font-bold tracking-tight text-white">Mavuno Feeds Industries</h2>
 		                    </div>
-		                    
-		                    
-		                    <!--                        <button class="flex items-center justify-center border border-[#006301] w-10 h-10 text-[#006301] rounded-md outline-none lg:hidden ml-auto" @click="navbarOpen = !navbarOpen">-->
-		                    <!--                            <i data-feather="menu"></i>-->
-		                    <!--                        </button>-->
-		                    <button class="flex items-center justify-center border border-white w-10 h-10 text-white rounded-md outline-none lg:hidden ml-auto" @click="navbarOpen = !navbarOpen">
+		                    <button class="flex items-center justify-center border border-white lg:w-10 lg:h-10 w-6 h-6 text-white rounded-md outline-none lg:hidden ml-auto" @click="navbarOpen = !navbarOpen">
 	                            <Icon name="ph:list-bold" class="text-white" />
 	                        </button>
 	                    </div>
@@ -65,18 +60,19 @@ const navbarOpen = ref(false)
 	                    </ul>
 	                </nav>
 	
-	                <header class="flex-col h-full lg:pt-20 xl:flex-row flex justify-between items-center w-full" style="width: 100%;">
+	                <header class="flex-col h-fit lg:pt-20 xl:flex-row flex items-center w-full" style="width: 100%;">
 	
-	                    <div class="mx-auto flex-1 text-center xl:text-left xl:mx-0 mb-20 xl:mb-0">
-	                        <h1 class="font-bold text-white text-3xl md:text-6xl leading-tight mb-10">Mavuno Feeds</h1>
+	                    <div class="mx-auto flex-1 text-center h-fit">
+	                       <h1 class="font-bold text-white text-2xl md:text-6xl leading-tight mb-10">Mavuno Feeds</h1>
 	
-	                        <p class="font-normal text-white text-sm md:text-lg mb-10">Manufactures of high-quality animal mineral salts supplements. <br> Our Products have been analyzed & certified by KEBS.</p>
+	                        <p class="font-normal text-white text-xs md:text-lg mb-10">Manufactures of high-quality animal mineral salts supplements. <br> Our Products have been analyzed & certified by KEBS.</p>
 	
-	                        <div class="flex items-center justify-center lg:justify-start">
-	                            <a href="#about" class="px-8 py-3 bg-[#006301] font-medium text-white text-md md:text-lg rounded-md hover:bg-green-700 transition ease-in-out duration-300 mr-14">About</a>
+	                        <div class="">
+	                            <a href="#about" class="lg:px-8 lg:py-3 px-5 py-2 bg-[#006301] font-medium text-white text-md md:text-lg rounded-md hover:bg-green-700 transition ease-in-out duration-300">About</a>
 	                        </div>
 	                    </div>
 	                </header>
+			            <div></div>
 	
 	          </div> <!-- container.// -->
 	       
@@ -122,7 +118,7 @@ const navbarOpen = ref(false)
 
                 <p class="font-normal text-gray-500 text-md md:text-lg text-center mb-12 md:mb-40">What we offer within our organization</p>
 	            
-                <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+                <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
                     <div class="text-center mb-10 xl:mb-0">
                         <div class="flex items-center justify-center">
                             <div class="w-20 py-7 flex justify-center bg-purple-50 text-purple-500 rounded-md mb-5 md:mb-10">
