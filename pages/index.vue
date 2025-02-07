@@ -26,8 +26,8 @@ const navbarOpen = ref(false)
 	                <nav class="flex-wrap lg:flex items-center justify-between">
 	                    <div class="flex items-center justify-between mb-10 lg:mb-0">
 		                    <div class="flex gap-1 lg:gap-3 items-center">
-			                    <img src="/mavuno_feeds/android/mipmap-xhdpi/ic_launcher.png" class="w-[40px] lg:w-[140px]" alt="Mavuno Feeds Industries">
-			                    <h2 class="text-xs sm:text-sm md:text-lg lg:text-3xl font-bold tracking-tight text-white">Mavuno Feeds Industries</h2>
+			                    <img src="/mavuno_feeds/android/mipmap-xhdpi/ic_launcher.png" class="w-[70px] lg:w-[140px]" alt="Mavuno Feeds Industries">
+			                    <h2 class="text-md md:text-lg lg:text-3xl font-bold tracking-tight text-white">Mavuno Feeds Industries</h2>
 		                    </div>
 		                    <button class="flex items-center justify-center border border-white lg:w-10 lg:h-10 w-6 h-6 text-white rounded-md outline-none lg:hidden ml-auto" @click="navbarOpen = !navbarOpen">
 	                            <Icon name="ph:list-bold" class="text-white" />
@@ -406,7 +406,6 @@ const navbarOpen = ref(false)
 	
 	                        <a href="#about" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">About</a>
 	                        <a href="#service" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Services</a>
-<!--	                        <a href="#work" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Works</a>-->
 	                        <a href="#products" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Products</a>
 	                        <a href="#social" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Social</a>
 	                        <a href="#contact" class="block font-normal text-gray-400 text-lg hover:text-gray-700 transition ease-in-out duration-300">Contact</a>
