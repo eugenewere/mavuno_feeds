@@ -26,8 +26,8 @@ const navbarOpen = ref(false)
 	                <nav class="flex-wrap lg:flex items-center justify-between">
 	                    <div class="flex items-center justify-between mb-10 lg:mb-0">
 		                    <div class="flex gap-1 lg:gap-3 items-center">
-			                    <img src="/mavuno_feeds/android/mipmap-xxxhdpi/ic_launcher.png" class="w-[70px] lg:w-[140px]" alt="Mavuno-Bamburi Feeds Industries">
-			                    <h2 class="text-md md:text-lg lg:text-3xl font-bold tracking-tight text-white">Mavuno-Bamburi Feeds Industries</h2>
+			                    <img src="/mavuno_feeds/android/mipmap-xxxhdpi/ic_launcher.png" class="w-[70px] lg:w-[140px]" alt="Mavuno-Bamburi Feed Industries">
+			                    <h2 class="text-md md:text-lg lg:text-3xl font-bold tracking-tight text-white">Mavuno-Bamburi Feed Industries</h2>
 		                    </div>
 		                    <button class="flex items-center justify-center border border-white lg:w-10 lg:h-10 w-6 h-6 text-white rounded-md outline-none lg:hidden ml-auto" @click="navbarOpen = !navbarOpen">
 	                            <Icon name="ph:list-bold" class="text-white" />
