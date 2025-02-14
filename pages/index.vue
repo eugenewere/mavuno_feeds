@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-	title: 'Mavuno Feeds'
+	title: 'Mavuno-Bamburi Feeds Industries'
 })
 const contact = {
 	email: 'mavunofeeds@gmail.com',
@@ -26,8 +26,8 @@ const navbarOpen = ref(false)
 	                <nav class="flex-wrap lg:flex items-center justify-between">
 	                    <div class="flex items-center justify-between mb-10 lg:mb-0">
 		                    <div class="flex gap-1 lg:gap-3 items-center">
-			                    <img src="/mavuno_feeds/android/mipmap-xhdpi/ic_launcher.png" class="w-[70px] lg:w-[140px]" alt="Mavuno Feeds Industries">
-			                    <h2 class="text-md md:text-lg lg:text-3xl font-bold tracking-tight text-white">Mavuno Feeds Industries</h2>
+			                    <img src="/mavuno_feeds/android/mipmap-xxxhdpi/ic_launcher.png" class="w-[70px] lg:w-[140px]" alt="Mavuno-Bamburi Feeds Industries">
+			                    <h2 class="text-md md:text-lg lg:text-3xl font-bold tracking-tight text-white">Mavuno-Bamburi Feeds Industries</h2>
 		                    </div>
 		                    <button class="flex items-center justify-center border border-white lg:w-10 lg:h-10 w-6 h-6 text-white rounded-md outline-none lg:hidden ml-auto" @click="navbarOpen = !navbarOpen">
 	                            <Icon name="ph:list-bold" class="text-white" />
@@ -63,7 +63,7 @@ const navbarOpen = ref(false)
 	                <header class="flex-col h-fit lg:pt-20 xl:flex-row flex items-center w-full" style="width: 100%;">
 	
 	                    <div class="mx-auto flex-1 text-center h-fit">
-	                       <h1 class="font-bold text-white text-2xl md:text-6xl leading-tight mb-10">Mavuno Feeds</h1>
+	                       <h1 class="font-bold text-white text-2xl md:text-6xl leading-tight mb-10">Mavuno-Bamburi Feed Industries</h1>
 	
 	                        <p class="font-normal text-white text-xs md:text-lg mb-10">Manufactures of high-quality animal mineral salts supplements. <br> Our Products have been analyzed & certified by KEBS.</p>
 	
@@ -95,12 +95,12 @@ const navbarOpen = ref(false)
 <!--                       <h1 class="font-bold text-gray-700 text-3xl md:text-4xl mb-10">High Phosphorous Dairies <br> Mineral Supplements.</h1>-->
 
                         <p class="font-normal text-gray-600 text-sm md:text-lg">
-	                        Manufacturers of High-Quality Animal Mineral Salt Supplements
-													We are a leading manufacturer of premium animal mineral salt supplements, dedicated to enhancing livestock health and productivity. Our products are scientifically formulated to meet the nutritional needs of various livestock species, ensuring optimal growth, improved immunity, and enhanced production efficiency.
+	                        Mavuno Bamburi Feeds, manufactures: High Quality dairy animal mineral salts (Concentrates) and Animal feeds; The Mavuno - Bamburi Feeds' products are as follows: Minerals for Lactating Dairies & goats, Beef fatteners, Pig mineral fatteners- concentrates containing essential minerals and vitamins to be added to a pig's diet to promote rapid weight gain (Fattening) and Horse micro (Mavuba Horse) - minerals or concentrates.
+	                        Our products are scientifically formulated to meet the nutritional needs of various livestock species, ensuring optimal growth, improved immunity, and enhanced production efficiency.
 													
 													With a commitment to quality and safety, our supplements undergo rigorous testing and quality control measures. Each product has been thoroughly analyzed and certified by the Kenya Bureau of Standards (KEBS), affirming compliance with industry standards and regulatory requirements.
 													
-													By leveraging advanced manufacturing processes and high-quality raw materials, we deliver mineral supplements that support bone development, reproductive health, and overall well-being in livestock. Our solutions cater to farmers, feed manufacturers, and the broader agricultural sector, providing a reliable source of essential minerals tailored to different animal species and production systems.
+													By leveraging advanced manufacturing processes and high-quality raw materials, we deliver mineral supplements / concentrates that support bone development, reproductive health, and overall well-being in livestock. Our solutions cater to farmers, feed manufacturers, and the broader agricultural sector, providing a reliable source of essential minerals tailored to different animal species and production systems.
 													
 													For farmers seeking superior nutrition solutions, our mineral salt supplements are the ideal choice for boosting animal health and maximizing returns on investment.
                         </p>
@@ -321,6 +321,13 @@ const navbarOpen = ref(false)
 
                         <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Milk Booster - PR</a>
                     </div>
+	                  <div class="space-y-2 xl:space-y-4 mb-10 md:mb-20">
+                        <img src="/image/products/product7.jpeg" alt="Image" class="hover:opacity-75 min-h-[430px] rounded-lg max-h-[430px] w-full object-cover transition ease-in-out duration-300">
+
+<!--                        <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>-->
+
+                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">D.C.P & Heat Booster</a>
+                    </div>
                 </div>
 	            
 	            <!--                <div class="flex justify-center mb-20 md:mb-40">-->
@@ -420,7 +427,7 @@ const navbarOpen = ref(false)
 		                </div>
 
                 </div>
-
+mineral
                 <hr class="text-gray-300 mt-10">
 
                 <p class="font-normal text-gray-400 text-md text-center mt-5">&copy; {{ new Date().getFullYear() }} Mavuno Feeds. All rights reserved.</p>
