@@ -427,7 +427,6 @@ const navbarOpen = ref(false)
 		                </div>
 
                 </div>
-mineral
                 <hr class="text-gray-300 mt-10">
 
                 <p class="font-normal text-gray-400 text-md text-center mt-5">&copy; {{ new Date().getFullYear() }} Mavuno Feeds. All rights reserved.</p>
