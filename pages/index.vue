@@ -95,12 +95,12 @@ const navbarOpen = ref(false)
 <!--                       <h1 class="font-bold text-gray-700 text-3xl md:text-4xl mb-10">High Phosphorous Dairies <br> Mineral Supplements.</h1>-->
 
                         <p class="font-normal text-gray-600 text-sm md:text-lg">
-	                        Mavuno Bamburi Feeds, manufactures: High Quality dairy animal mineral salts (Concentrates) and Animal feeds; The Mavuno - Bamburi Feeds' products are as follows: Minerals for Lactating Dairies & goats, Beef fatteners, Pig mineral fatteners- concentrates containing essential minerals and vitamins to be added to a pig's diet to promote rapid weight gain (Fattening) and Horse micro (Mavuba Horse) - minerals or concentrates.
+	                        Mavuno Bamburi Feeds industries, manufactures: High Quality dairy animal mineral salts (Concentrates) and Animal feeds; The Mavuno - Bamburi Feeds' products are as follows: Minerals for Lactating <strong>Dairies & goats</strong>, <strong>Beef fatteners</strong>, <strong>Pig mineral fatteners</strong>- concentrates containing essential minerals and vitamins to be added to a pig's diet to promote rapid weight gain (Fattening) and Horse micro (Mavuba Horse Minerals) - minerals or concentrates.
 	                        Our products are scientifically formulated to meet the nutritional needs of various livestock species, ensuring optimal growth, improved immunity, and enhanced production efficiency.
 													
 													With a commitment to quality and safety, our supplements undergo rigorous testing and quality control measures. Each product has been thoroughly analyzed and certified by the Kenya Bureau of Standards (KEBS), affirming compliance with industry standards and regulatory requirements.
 													
-													By leveraging advanced manufacturing processes and high-quality raw materials, we deliver mineral supplements / concentrates that support bone development, reproductive health, and overall well-being in livestock. Our solutions cater to farmers, feed manufacturers, and the broader agricultural sector, providing a reliable source of essential minerals tailored to different animal species and production systems.
+													By leveraging advanced manufacturing processes and high-quality raw materials, we deliver mineral supplements / concentrates that support bone development, reproductive health, high milk production and overall well-being in livestock. Our solutions cater to farmers, feed manufacturers, and the broader agricultural sector, providing a reliable source of essential minerals tailored to different animal species and production systems.
 													
 													For farmers seeking superior nutrition solutions, our mineral salt supplements are the ideal choice for boosting animal health and maximizing returns on investment.
                         </p>
