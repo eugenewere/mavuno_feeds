@@ -283,44 +283,44 @@ const navbarOpen = ref(false)
                         <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Mavuno Feeds</a>
                     </div>
 
-                    <div class="space-y-2 xl:space-y-4">
-                        <img src="/image/products/product2.jpeg" alt="Image" class="hover:opacity-75 min-h-[430px] rounded-lg max-h-[430px] w-full object-cover transition ease-in-out duration-300">
-<!--												<p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>-->
+<!--                    <div class="space-y-2 xl:space-y-4">-->
+<!--                        <img src="/image/products/product2.jpeg" alt="Image" class="hover:opacity-75 min-h-[430px] rounded-lg max-h-[430px] w-full object-cover transition ease-in-out duration-300">-->
+<!--&lt;!&ndash;												<p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>&ndash;&gt;-->
 
-                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Reimer Feed Mill</a>
-                    </div>
+<!--                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Reimer Feed Mill</a>-->
+<!--                    </div>-->
 
-                    <div class="space-y-2 xl:space-y-4">
-                        <img src="/image/products/product3.jpeg" alt="Image" class="hover:opacity-75 min-h-[430px] rounded-lg max-h-[430px] w-full object-cover transition ease-in-out duration-300">
+<!--                    <div class="space-y-2 xl:space-y-4">-->
+<!--                        <img src="/image/products/product3.jpeg" alt="Image" class="hover:opacity-75 min-h-[430px] rounded-lg max-h-[430px] w-full object-cover transition ease-in-out duration-300">-->
 
-<!--                        <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>-->
+<!--&lt;!&ndash;                        <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>&ndash;&gt;-->
 
-                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">BelMill Ranch Cubes</a>
-                    </div>
+<!--                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">BelMill Ranch Cubes</a>-->
+<!--                    </div>-->
 
-                    <div class="space-y-2 xl:space-y-4">
-                        <img src="/image/products/product4.jpeg" alt="Image" class="hover:opacity-75 min-h-[430px] rounded-lg max-h-[430px] w-full object-cover transition ease-in-out duration-300">
+<!--                    <div class="space-y-2 xl:space-y-4">-->
+<!--                        <img src="/image/products/product4.jpeg" alt="Image" class="hover:opacity-75 min-h-[430px] rounded-lg max-h-[430px] w-full object-cover transition ease-in-out duration-300">-->
 
-<!--                        <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>-->
+<!--&lt;!&ndash;                        <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>&ndash;&gt;-->
 
-                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Cattlehos - Heat Booster</a>
-                    </div>
+<!--                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Cattlehos - Heat Booster</a>-->
+<!--                    </div>-->
 
-                    <div class="space-y-2 xl:space-y-4">
-                        <img src="/image/products/product5.jpeg" alt="Image" class="hover:opacity-75 min-h-[430px] rounded-lg max-h-[430px] w-full object-cover transition ease-in-out duration-300">
+<!--                    <div class="space-y-2 xl:space-y-4">-->
+<!--                        <img src="/image/products/product5.jpeg" alt="Image" class="hover:opacity-75 min-h-[430px] rounded-lg max-h-[430px] w-full object-cover transition ease-in-out duration-300">-->
 
-<!--                        <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>-->
+<!--&lt;!&ndash;                        <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>&ndash;&gt;-->
 
-                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Cattlehos - Heat Booster</a>
-                    </div>
+<!--                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Cattlehos - Heat Booster</a>-->
+<!--                    </div>-->
 
-                    <div class="space-y-2 xl:space-y-4 mb-10 md:mb-20">
-                        <img src="/image/products/product6.jpeg" alt="Image" class="hover:opacity-75 min-h-[430px] rounded-lg max-h-[430px] w-full object-cover transition ease-in-out duration-300">
+<!--                    <div class="space-y-2 xl:space-y-4 mb-10 md:mb-20">-->
+<!--                        <img src="/image/products/product6.jpeg" alt="Image" class="hover:opacity-75 min-h-[430px] rounded-lg max-h-[430px] w-full object-cover transition ease-in-out duration-300">-->
 
-<!--                        <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>-->
+<!--&lt;!&ndash;                        <p class="font-normal text-gray-400 text-base">Design, Branding, Development</p>&ndash;&gt;-->
 
-                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Milk Booster - PR</a>
-                    </div>
+<!--                        <a href="#" class="block font-semibold text-gray-700 text-xl md:text-2xl hover:text-[#006301] transition ease-in-out duration-300">Milk Booster - PR</a>-->
+<!--                    </div>-->
 	                  <div class="space-y-2 xl:space-y-4 mb-10 md:mb-20">
                         <img src="/image/products/product7.jpeg" alt="Image" class="hover:opacity-75 min-h-[430px] rounded-lg max-h-[430px] w-full object-cover transition ease-in-out duration-300">
 
