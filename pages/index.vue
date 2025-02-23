@@ -88,7 +88,7 @@ const navbarOpen = ref(false)
 
                 <div class="flex flex-col lg:grid grid-cols-2 ">
                     <div class="mx-auto flex-shrink-0  xl:mx-0 mb-20 xl:mb-0">
-                       <img src="/image/1cow1.png" alt="Image" class="w-[50%] lg:w-[70%] mx-auto lg:mr-auto" style="transform: scaleX(1)">
+                       <img src="/image/1cow1.png" alt="Image" class="w-[50%] lg:w-[80%] mx-auto lg:mr-auto" style="transform: scaleX(1)">
                     </div>
 
                     <div class="mx-auto  xl:mx-0 text-center xl:text-left">
@@ -120,11 +120,12 @@ const navbarOpen = ref(false)
 	            
                 <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
                     <div class="text-center mb-10 xl:mb-0">
-                        <div class="flex items-center justify-center">
-                            <div class="w-20 py-7 flex justify-center bg-purple-50 text-purple-500 rounded-md mb-5 md:mb-10">
-	                              <Icon name="ph:align-bottom-fill" size="30" />
-	                              
-                            </div>
+                        <div class="flex items-center justify-center pb-4">
+<!--                            <div class="w-20 py-7 flex justify-center bg-purple-50 text-purple-500 rounded-md mb-5 md:mb-10">-->
+<!--	                              <Icon name="ph:align-bottom-fill" size="30" />-->
+<!--	                              -->
+<!--                            </div>-->
+	                         <img src="/image/services/CustomFormulation.png" alt="Image" class="hover:opacity-75 min-h-[300px] rounded-lg max-h-[300px] w-full object-cover transition ease-in-out duration-300">
                         </div>
 
                         <h2 class="font-semibold text-gray-700 text-xl md:text-3xl mb-5">Custom Formulation</h2>
@@ -132,10 +133,11 @@ const navbarOpen = ref(false)
                         <p class="font-normal text-gray-400 text-sm md:text-lg">Tailor-made mineral supplements for different livestock species.</p>
                     </div>
                     <div class="text-center mb-10 md:mb-0">
-                        <div class="flex items-center justify-center">
-                            <div class="w-20 py-7 flex justify-center bg-red-50 text-red-500 rounded-md mb-5 md:mb-10">
-                                <Icon name="ph:circle-wavy-question-fill" size="30" />
-                            </div>
+                        <div class="flex items-center justify-center pb-4">
+<!--                            <div class="w-20 py-7 flex justify-center bg-red-50 text-red-500 rounded-md mb-5 md:mb-10">-->
+<!--                                <Icon name="ph:circle-wavy-question-fill" size="30" />-->
+<!--                            </div>-->
+	                        <img src="/image/services/QualityAssurance.jpg" alt="Image" class="hover:opacity-75 min-h-[300px] rounded-lg max-h-[300px] w-full object-cover transition ease-in-out duration-300">
                         </div>
 
                         <h2 class="font-semibold text-gray-700 text-xl md:text-3xl mb-5">Quality Assurance </h2>
@@ -143,10 +145,11 @@ const navbarOpen = ref(false)
                         <p class="font-normal text-gray-400 text-sm md:text-lg">Certified by KEBS, ensuring safety and compliance.</p>
                     </div>
                     <div class="text-center">
-                        <div class="flex items-center justify-center">
-                            <div class="w-20 py-7 flex justify-center bg-blue-50 text-blue-500 rounded-md mb-5 md:mb-10">
-                                <Icon name="ph:factory-fill" size="30" />
-                            </div>
+                        <div class="flex items-center justify-center pb-4">
+<!--                            <div class="w-20 py-7 flex justify-center bg-blue-50 text-blue-500 rounded-md mb-5 md:mb-10">-->
+<!--                                <Icon name="ph:factory-fill" size="30" />-->
+<!--                            </div>-->
+	                        <img src="/image/services/BulkManufacturingPrivateLabeling.jpg" alt="Image" class="hover:opacity-75 min-h-[300px] rounded-lg max-h-[300px] w-full object-cover transition ease-in-out duration-300">
                         </div>
 
                         <h2 class="font-semibold text-gray-700 text-xl md:text-3xl mb-5">Bulk Manufacturing & Private Labeling</h2>
@@ -154,10 +157,11 @@ const navbarOpen = ref(false)
                         <p class="font-normal text-gray-400 text-sm md:text-lg">Large-scale production and branding solutions.</p>
                     </div>
 	                  <div class="text-center">
-                        <div class="flex items-center justify-center">
-                            <div class="w-20 py-7 flex justify-center bg-stone-50 text-stone-500 rounded-md mb-5 md:mb-10">
-                               <Icon name="ph:user-sound-fill" size="30" />
-                            </div>
+                        <div class="flex items-center justify-center pb-4">
+<!--                            <div class="w-20 py-7 flex justify-center bg-stone-50 text-stone-500 rounded-md mb-5 md:mb-10">-->
+<!--                               <Icon name="ph:user-sound-fill" size="30" />-->
+<!--                            </div>-->
+	                        <img src="/image/services/TechnicalSupportConsultancy.jpg" alt="Image" class="hover:opacity-75 min-h-[300px] rounded-lg max-h-[300px] w-full object-cover transition ease-in-out duration-300">
                         </div>
 
                         <h2 class="font-semibold text-gray-700 text-xl md:text-3xl mb-5">Technical Support & Consultancy </h2>
@@ -165,10 +169,11 @@ const navbarOpen = ref(false)
                         <p class="font-normal text-gray-400 text-sm md:text-lg">Expert advice on livestock nutrition and supplementation.</p>
                     </div>
 	                  <div class="text-center">
-                        <div class="flex items-center justify-center">
-                            <div class="w-20 py-7 flex justify-center bg-yellow-50 text-yellow-500 rounded-md mb-5 md:mb-10">
-                               <Icon name="ph:truck-trailer-fill" size="30" />
-                            </div>
+                        <div class="flex items-center justify-center pb-4">
+<!--                            <div class="w-20 py-7 flex justify-center bg-yellow-50 text-yellow-500 rounded-md mb-5 md:mb-10">-->
+<!--                               <Icon name="ph:truck-trailer-fill" size="30" />-->
+<!--                            </div>-->
+	                        <img src="/image/services/DistributionSupply.jpg" alt="Image" class="hover:opacity-75 min-h-[300px] rounded-lg max-h-[300px] w-full object-cover transition ease-in-out duration-300">
                         </div>
 
                         <h2 class="font-semibold text-gray-700 text-xl md:text-3xl mb-5">Distribution & Supply</h2>
@@ -176,10 +181,11 @@ const navbarOpen = ref(false)
                         <p class="font-normal text-gray-400 text-sm md:text-lg">Efficient logistics for timely delivery.</p>
                     </div>
 	                  <div class="text-center">
-                        <div class="flex items-center justify-center">
-                            <div class="w-20 py-7 flex justify-center bg-green-50 text-green-500 rounded-md mb-5 md:mb-10">
-                               <Icon name="ph:magnifying-glass-fill" size="30" />
-                            </div>
+                        <div class="flex items-center justify-center pb-4">
+<!--                            <div class="w-20 py-7 flex justify-center bg-green-50 text-green-500 rounded-md mb-5 md:mb-10">-->
+<!--                               <Icon name="ph:magnifying-glass-fill" size="30" />-->
+<!--                            </div>-->
+	                        <img src="/image/services/ResearchInnovation.jpg" alt="Image" class="hover:opacity-75 min-h-[300px] rounded-lg max-h-[300px] w-full object-cover transition ease-in-out duration-300">
                         </div>
 
                         <h2 class="font-semibold text-gray-700 text-xl md:text-3xl mb-5">Research & Innovation</h2>
