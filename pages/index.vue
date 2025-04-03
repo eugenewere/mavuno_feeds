@@ -23,11 +23,11 @@ const navbarOpen = ref(false)
 
 		        <div class="relative z-10 h-full flex flex-col justify-between container max-w-screen-xl mx-auto px-4">
 	
-	                <nav class="flex-wrap lg:flex items-center justify-between">
+	                <nav class="flex-wrap lg:flex xl:flex lg:flex-row items-center justify-between">
 	                    <div class="flex items-center justify-between mb-10 lg:mb-0">
 		                    <div class="flex gap-1 lg:gap-3 items-center">
 			                    <img src="/mavuno_feeds/android/mipmap-xxxhdpi/ic_launcher.png" class="w-[70px] lg:w-[140px]" alt="Mavuno-Bamburi Feed Industries">
-			                    <h2 class="text-md md:text-lg lg:text-3xl font-bold tracking-tight text-white">Mavuno-Bamburi Feed Industries</h2>
+			                    <h2 class="text-md md:text-lg lg:text-xl font-bold tracking-tight text-white">Mavuno-Bamburi Feed Industries</h2>
 		                    </div>
 		                    <button class="flex items-center justify-center border border-white lg:w-10 lg:h-10 w-6 h-6 text-white rounded-md outline-none lg:hidden ml-auto" @click="navbarOpen = !navbarOpen">
 	                            <Icon name="ph:list-bold" class="text-white" />
@@ -36,25 +36,25 @@ const navbarOpen = ref(false)
 		                
 		                <!--                    <ul class="hidden lg:block lg:flex flex-col lg:flex-row lg:items-center lg:space-x-20" :class="{'hidden':!navbarOpen,'flex':navbarOpen}">-->
 	                    <ul class="bg-white lg:bg-transparent p-4 lg:p-0 rounded-lg lg:block lg:flex flex-col lg:flex-row lg:items-center lg:space-x-10" :class=" navbarOpen ? 'flex' : 'hidden'">
-	                        <li class="font-medium lg:text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mr-0 lg:mb-0 text-center">
+	                        <li class="font-medium lg:text-white text-md hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mr-0 lg:mb-0 text-center">
 	                            <a href="#about">About</a>
 	                        </li>
 	
-	                        <li class="font-medium lg:text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
+	                        <li class="font-medium lg:text-white text-md hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
 	                            <a href="#service">Services</a>
 	                        </li>
 	
-<!--	                        <li class="font-medium lg:text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">-->
+<!--	                        <li class="font-medium lg:text-white text-md hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">-->
 <!--	                            <a href="#work">Works</a>-->
 <!--	                        </li>-->
-		                    <li class="font-medium lg:text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
+		                    <li class="font-medium lg:text-white text-md hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
 	                            <a href="#products">Products</a>
 	                        </li>
-		                    <li class="font-medium lg:text-white text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
+		                    <li class="font-medium lg:text-white text-md hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0 text-center">
 	                            <a href="#social">Social</a>
 	                        </li>
 		                    
-		                      <li class="px-8 py-3 font-medium lg:text-white text-lg text-center border-2 lg:border-white rounded-md hover:bg-white hover:text-white transition ease-linear duration-300">
+		                      <li class="px-8 py-3 font-medium lg:text-white text-md text-center border-2 lg:border-white rounded-md hover:bg-white hover:text-black transition ease-linear duration-300">
 	                            <a href="#contact">Contact</a>
 	                       </li>
 	                    </ul>
